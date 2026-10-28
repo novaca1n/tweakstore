@@ -19,8 +19,8 @@ android {
         applicationId = "dev.novacain.tweakstore"
         minSdk = 31          // dynamic colors (Material You)
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
     }
     signingConfigs {
         if (keyProps.isNotEmpty()) create("release") {
